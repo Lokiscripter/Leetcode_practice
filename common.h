@@ -12,4 +12,14 @@
 
 using namespace std;
 
+string convert(string s, int numRows);
+
+int addDigits(int num);
+
+string nearestPalindromic(string n);
+
+long long subArrayRanges(vector<int>& nums);
+
+
+
 #endif //LEETCODE_PRACTICE_COMMON_H

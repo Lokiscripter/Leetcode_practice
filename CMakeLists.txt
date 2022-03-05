@@ -8,4 +8,5 @@ include_directories(.)
 add_executable(Leetcode_practice
         564-find-the-closest-palindrome/564-find-the-closest-palindrome.cpp
         6-zigzag-conversion/6-zigzag-conversion.cpp
-        common.h)
+        2104-sum-of-subarray-ranges/2104-sum-of-subarray-ranges.cpp
+        common.h main.cpp)
