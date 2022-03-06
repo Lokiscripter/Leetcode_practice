@@ -5,7 +5,8 @@
 #include "common.h"
 
 int main(){
-    vector<int> nums = {1,2,3};
-    long long num = subArrayRanges(nums);
+    vector<int> nums = {1};
+    vector<int> ans;
+    ans=goodDaysToRobBank(nums,5);
     return 0;
 }

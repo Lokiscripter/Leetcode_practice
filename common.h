@@ -20,6 +20,7 @@ string nearestPalindromic(string n);
 
 long long subArrayRanges(vector<int>& nums);
 
+vector<int> goodDaysToRobBank(vector<int>& security, int time);
 
 
 #endif //LEETCODE_PRACTICE_COMMON_H
