@@ -9,6 +9,8 @@
 #include <vector>
 #include <iostream>
 #include <cmath>
+#include <algorithm>
+#include <numeric>
 
 using namespace std;
 
@@ -22,5 +24,7 @@ long long subArrayRanges(vector<int>& nums);
 
 vector<int> goodDaysToRobBank(vector<int>& security, int time);
 
+string convertToBase7(int num);
 
+int minSwaps(vector<int>& nums);
 #endif //LEETCODE_PRACTICE_COMMON_H
