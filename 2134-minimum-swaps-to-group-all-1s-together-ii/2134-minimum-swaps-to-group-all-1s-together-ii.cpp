@@ -9,7 +9,7 @@ int minSwaps(vector<int>& nums){
     int one_cnt = accumulate(nums.begin(),nums.end(),0);
     if (one_cnt == 0)   return 0;
     vector<int> record = nums;
-    record.insert(record.end(),nums.begin(),nums.end());
+    record.insert(record.end(),nums.begin(),nums.end());// 环形数组，扩大一倍
     int ans = INT_MAX;
     int cnt = 0;
     for (int i = 0; i < record.size(); ++i) {
