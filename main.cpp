@@ -4,9 +4,13 @@
 
 #include "common.h"
 
+#include<stdio.h>
+
+int f(int Int){
+    if (Int==0)return Int;
+    return(Int+f(Int-1));
+};
 int main(){
-    vector<int> nums = {1};
-    vector<int> ans;
-    ans=goodDaysToRobBank(nums,5);
-    return 0;
+    int inT=9;
+    cout<<"result="<<f(inT)<<'\n';
 }
