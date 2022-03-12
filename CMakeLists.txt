@@ -15,4 +15,4 @@ add_executable(Leetcode_practice
         2134-minimum-swaps-to-group-all-1s-together-ii/2134-minimum-swaps-to-group-all-1s-together-ii.cpp
         2055-plates-between-candles/2055-plates-between-candles.cpp
         209-minimum-size-subarray-sum/209-minimum-size-subarray-sum.cpp
-        209-minimum-size-subarray-sum/209-minimum-size-subarray-sum2.cpp 589-n-ary-tree-preorder-traversal/589-n-ary-tree-preorder-traversal.cpp 2049-count-nodes-with-the-highest-score/2049-count-nodes-with-the-highest-score.cpp)
+        209-minimum-size-subarray-sum/209-minimum-size-subarray-sum2.cpp 589-n-ary-tree-preorder-traversal/589-n-ary-tree-preorder-traversal.cpp 2049-count-nodes-with-the-highest-score/2049-count-nodes-with-the-highest-score.cpp 290-n-ary-tree-postorder-traversal/290-n-ary-tree-postorder-traversal.cpp)
