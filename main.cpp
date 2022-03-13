@@ -4,13 +4,8 @@
 
 #include "common.h"
 
-#include<stdio.h>
 
-int f(int Int){
-    if (Int==0)return Int;
-    return(Int+f(Int-1));
-};
 int main(){
-    int inT=9;
-    cout<<"result="<<f(inT)<<'\n';
+    vector<int> data ={240,162,138,147,145};
+    validUtf8(data);
 }

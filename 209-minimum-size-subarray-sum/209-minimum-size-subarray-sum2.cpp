@@ -4,7 +4,7 @@
 
 #include "../common.h"
 
-int minSubArrayLen(int target, vector<int>& nums) {
+int minSubArrayLen2(int target, vector<int>& nums) {
     int n = nums.size();
     int left = 0;
     int right = 0;

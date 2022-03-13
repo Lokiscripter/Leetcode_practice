@@ -24,9 +24,13 @@ long long subArrayRanges(vector<int>& nums);
 
 vector<int> goodDaysToRobBank(vector<int>& security, int time);
 
+string convertToBase(int num,int BASE);
+
 string convertToBase7(int num);
 
 int minSwaps(vector<int>& nums);
 
 vector<int> platesBetweenCandles(string s, vector<vector<int>>& queries);
+
+bool validUtf8(vector<int>& data);
 #endif //LEETCODE_PRACTICE_COMMON_H
