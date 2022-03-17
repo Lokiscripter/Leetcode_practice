@@ -16,6 +16,7 @@
 #include <set>
 #include <unordered_set>
 #include <list>
+#include <stack>
 
 using namespace std;
 
