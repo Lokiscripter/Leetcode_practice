@@ -5,6 +5,8 @@
 #ifndef LEETCODE_PRACTICE_COMMON_H
 #define LEETCODE_PRACTICE_COMMON_H
 
+using namespace std;
+
 #include <string>
 #include <vector>
 #include <iostream>
@@ -17,8 +19,7 @@
 #include <unordered_set>
 #include <list>
 #include <stack>
-
-using namespace std;
+#include <queue>
 
 string convert(string s, int numRows);
 
