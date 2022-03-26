@@ -4,7 +4,7 @@
 
 #include "../common.h"
 
-bool winnerOfGame(string colors) {
+bool winnerOfGame2(string colors) {
     if (colors.size() < 3){
         return false;
     }
