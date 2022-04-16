@@ -1,6 +1,6 @@
 class NestedInteger:
     def __init__(self, value=None):
-        return 
+        return
 #        """
 #        If value is not specified, initializes an empty list.
 #        Otherwise initializes a single integer equal to value.
